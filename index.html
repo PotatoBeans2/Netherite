@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Revelations 6:1-8</title>
+  <title>button mashing is cool</title>
   <style>
     body {
       margin: 0;
@@ -63,8 +63,22 @@
       or so we thought.
     </p>
     <p>
-      A secret network is spreading.A full <b>Illegal Netherite Set</b> is making its way across the server.
+      A secret network is spreading. A full <b>Illegal Netherite Set</b> is making its way across the server.
+    </p>
+
+    <p class="hidden" id="secret-link">
+      <a href="https://www.youtube.com/watch?v=FJOOr9n50_U&ab_channel=roshambogames" target="_blank">
+        wouldnt it be cool if this was one of the challenges that you maybe have to complete
+      </a>
     </p>
   </div>
+  <script>
+    document.addEventListener("keydown", function () {
+      const secret = document.getElementById("secret-link");
+      if (secret.classList.contains("hidden")) {
+        secret.classList.remove("hidden");
+      }
+    });
+  </script>
 </body>
 </html>
